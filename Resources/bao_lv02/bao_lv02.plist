@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>bao_lv02/biyan.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{147, 156}, {61, 38}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{3, 10}, {61, 38}}</string>
+			<key>sourceSize</key>
+			<string>{68, 58}</string>
+		</dict>
+		<key>bao_lv02/bizi.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{114, 205}, {41, 39}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {41, 39}}</string>
+			<key>sourceSize</key>
+			<string>{41, 39}</string>
+		</dict>
+		<key>bao_lv02/lingzi.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{77, 205}, {45, 35}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 35}}</string>
+			<key>sourceSize</key>
+			<string>{45, 35}</string>
+		</dict>
+		<key>bao_lv02/shenti.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{161, 1}, {153, 86}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {153, 86}}</string>
+			<key>sourceSize</key>
+			<string>{153, 86}</string>
+		</dict>
+		<key>bao_lv02/tou.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {158, 142}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {158, 142}}</string>
+			<key>sourceSize</key>
+			<string>{158, 142}</string>
+		</dict>
+		<key>bao_lv02/weiba.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 156}, {97, 74}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {97, 74}}</string>
+			<key>sourceSize</key>
+			<string>{97, 74}</string>
+		</dict>
+		<key>bao_lv02/xiaba.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{210, 156}, {26, 19}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {26, 19}}</string>
+			<key>sourceSize</key>
+			<string>{26, 19}</string>
+		</dict>
+		<key>bao_lv02/yanjing.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{77, 145}, {68, 58}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {68, 58}}</string>
+			<key>sourceSize</key>
+			<string>{68, 58}</string>
+		</dict>
+		<key>bao_lv02/zui.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{210, 177}, {19, 24}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {19, 24}}</string>
+			<key>sourceSize</key>
+			<string>{19, 24}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+		<key>textureFileName</key>
+		<string>bao_lv02.pvr.ccz</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "222D317D19936D2509C71A490C35B27B04EC43E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "222D317D19936D2509C71A490C35B27B04EC43E6" : 0,
+    "E53870615B342FE73AFED586F000C19349F71275" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E5531401-9245-4EF2-8A2C-FFF08999D260",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "222D317D19936D2509C71A490C35B27B04EC43E6" : "DoTaBattle",
+    "E53870615B342FE73AFED586F000C19349F71275" : "RunQuickly"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DoTaBattle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios\/DoTaBattle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "123.56.101.172:DoTaBattle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "222D317D19936D2509C71A490C35B27B04EC43E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:slamdt\/RunQuickly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E53870615B342FE73AFED586F000C19349F71275"
+    }
+  ]
+}

@@ -8,11 +8,23 @@
 
 #include "HeroModel.h"
 
+std::string HeroModel::GetResoucePrePath(const char *modelName) {
+    std::string prePath = "Actor/";
+    prePath += modelName;
+    return prePath;
+}
+
 void HeroModel::AddArmatureInfo() {
-    cocos2d::CCString* cczName = cocos2d::CCString::createWithFormat("%s.pvr.ccz",_modelName);
-    cocos2d::CCString* plistName = cocos2d::CCString::createWithFormat("%s.plist",_modelName);
-    cocos2d::CCString* xmlName = cocos2d::CCString::createWithFormat("%s.xml",_modelName);
-    cocos2d::extension::CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfo(cczName->getCString(),plistName->getCString(),xmlName->getCString());
+    std::string sourcePrePath;
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+    sourcePrePath = _modelName;
+#else
+    sourcePrePath = GetResoucePrePath(_modelName) + "/" + _modelName;
+#endif
+    std::string cczName = sourcePrePath + ".pvr.ccz";
+    std::string plistName = sourcePrePath + ".plist";
+    std::string xmlName = sourcePrePath + ".xml";
+    cocos2d::extension::CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfo(cczName.c_str(),plistName.c_str(),xmlName.c_str());
     
     m_pAnimator = cocos2d::extension::CCArmature::create(_modelName);
     if (_isNeedFlip) {

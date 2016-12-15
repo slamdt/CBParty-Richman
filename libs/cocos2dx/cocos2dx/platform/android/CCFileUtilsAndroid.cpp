@@ -119,6 +119,7 @@ unsigned char* CCFileUtilsAndroid::getFileData(const char* pszFileName, const ch
     }
 
     string fullPath = fullPathForFilename(pszFileName);
+    CCLog("fuck full path is %s",fullPath.c_str());
 
     if (fullPath[0] != '/')
     {

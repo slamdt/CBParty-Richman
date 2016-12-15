@@ -60,23 +60,22 @@ bool AppDelegate::applicationDidFinishLaunching()
     int targetHeight = pEglView->getFrameSize().height;
     int targetWidth = pEglView->getFrameSize().width;
     
-    if (targetWidth * ratioHigh < targetHeight * 1000) {
+    if (targetHeight * ratioHigh < targetWidth * 1000) {
         CCLog("taller than iPhone 5");
-        pEglView->setDesignResolutionSize(320, 568, kResolutionShowAll);
-    } else if (targetWidth * ratioHigh == targetHeight * 1000) {
+        pEglView->setDesignResolutionSize(568, 320, kResolutionShowAll);
+    } else if (targetHeight * ratioHigh == targetWidth * 1000) {
         CCLog("same ratio with iPhone 5");
-        pEglView->setDesignResolutionSize(320, 568, kResolutionShowAll);
-    } else if (targetWidth * ratioLow == targetHeight * 1000) {
+        pEglView->setDesignResolutionSize(568, 320, kResolutionShowAll);
+    } else if (targetHeight * ratioLow == targetWidth * 1000) {
         CCLog("same ratio with iPhone 4");
-        pEglView->setDesignResolutionSize(320, 480, kResolutionShowAll);
-    } else if (targetWidth * ratioLow > targetHeight * 1000) {
+        pEglView->setDesignResolutionSize(480, 320, kResolutionShowAll);
+    } else if (targetHeight * ratioLow > targetWidth * 1000) {
         CCLog("wider than iPhone 4");
-        pEglView->setDesignResolutionSize(320,
-                                          480, kResolutionExactFit);
+        pEglView->setDesignResolutionSize(480,
+                                          320, kResolutionExactFit);
     } else {
         CCLog("between iPhone 4 and iPhone 5");
-        pEglView->setDesignResolutionSize(320,
-                                          pEglView->getFrameSize().height / pEglView->getFrameSize().width * 320, kResolutionShowAll);
+        pEglView->setDesignResolutionSize(pEglView->getFrameSize().height / pEglView->getFrameSize().width * 320,320, kResolutionShowAll);
     }
 #endif
     CCLOG("new frame size:%f, %f", CCEGLView::sharedOpenGLView()->getFrameSize().width, CCEGLView::sharedOpenGLView()->getFrameSize().height);

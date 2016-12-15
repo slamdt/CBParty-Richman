@@ -22,6 +22,7 @@ public:
     void AddArmatureInfo();
     void PlayAnimation(const char* aniName);
     float GetHeight();
+    std::string GetResoucePrePath(const char* modelName);
 private:
     const char * _modelName;
     bool _isNeedFlip;

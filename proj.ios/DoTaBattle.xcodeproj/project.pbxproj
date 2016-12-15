@@ -3312,7 +3312,7 @@
 					"\"../libs/cocos2dx/cocos2dx/include\"",
 					"\"../libs/cocos2dx/cocos2dx/platform/third_party/ios\"",
 					"\"../libs/cocos2dx/cocos2dx/platform/ios\"",
-					"\"../libs/cocos2dx/external",
+					"\"../libs/cocos2dx/external\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/plists/DoTaBattle.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3349,7 +3349,7 @@
 					"\"../libs/cocos2dx/cocos2dx/include\"",
 					"\"../libs/cocos2dx/cocos2dx/platform/third_party/ios\"",
 					"\"../libs/cocos2dx/cocos2dx/platform/ios\"",
-					"\"../libs/cocos2dx/external",
+					"\"../libs/cocos2dx/external\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/plists/DoTaBattle.plist";
 				LIBRARY_SEARCH_PATHS = (

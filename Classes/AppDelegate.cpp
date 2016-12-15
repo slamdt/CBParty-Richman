@@ -10,8 +10,9 @@
 
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
-#include "GameLayer.h"
 #include "CCDataReaderHelper.h"
+#include "GameUtil.h"
+
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -52,6 +53,31 @@ bool AppDelegate::applicationDidFinishLaunching()
             pEglView->setDesignResolutionSize(480, 320, kResolutionShowAll);
         }
     }
+#else
+    int ratioLow = 1500;
+    int ratioHigh = 1775;
+    
+    int targetHeight = pEglView->getFrameSize().height;
+    int targetWidth = pEglView->getFrameSize().width;
+    
+    if (targetWidth * ratioHigh < targetHeight * 1000) {
+        CCLog("taller than iPhone 5");
+        pEglView->setDesignResolutionSize(320, 568, kResolutionShowAll);
+    } else if (targetWidth * ratioHigh == targetHeight * 1000) {
+        CCLog("same ratio with iPhone 5");
+        pEglView->setDesignResolutionSize(320, 568, kResolutionShowAll);
+    } else if (targetWidth * ratioLow == targetHeight * 1000) {
+        CCLog("same ratio with iPhone 4");
+        pEglView->setDesignResolutionSize(320, 480, kResolutionShowAll);
+    } else if (targetWidth * ratioLow > targetHeight * 1000) {
+        CCLog("wider than iPhone 4");
+        pEglView->setDesignResolutionSize(320,
+                                          480, kResolutionExactFit);
+    } else {
+        CCLog("between iPhone 4 and iPhone 5");
+        pEglView->setDesignResolutionSize(320,
+                                          pEglView->getFrameSize().height / pEglView->getFrameSize().width * 320, kResolutionShowAll);
+    }
 #endif
     CCLOG("new frame size:%f, %f", CCEGLView::sharedOpenGLView()->getFrameSize().width, CCEGLView::sharedOpenGLView()->getFrameSize().height);
 
@@ -64,10 +90,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
     
-    CCScene *scene = GameLayer::scene();
-    pDirector->runWithScene(scene);
-    
-    
+    GameUtil::RunScene(GAME_BATTLE);
     return true;
 }
 

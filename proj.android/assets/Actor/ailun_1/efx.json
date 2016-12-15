@@ -1,0 +1,831 @@
+{
+   "animation_speed" : {
+      "gongji" : 1.100000023841858
+   },
+   "moves" : [
+      {
+         "name" : "chong",
+         "schema" : {
+            "default" : {
+               "isLoop" : false,
+               "tracks" : [
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "Fly",
+                           "fly" : {
+                              "bezierAngle" : 45.0,
+                              "bezierControl1" : 0.50,
+                              "bezierControl2" : 0.750,
+                              "easeTime" : 0.3000000119209290,
+                              "flyTime" : 0.1000000014901161,
+                              "type" : 0,
+                              "x" : 50.0,
+                              "y" : 0.0
+                           },
+                           "frame" : 0,
+                           "life" : 0.1000000014901161,
+                           "startTime" : 0.0,
+                           "type" : "Fly"
+                        }
+                     ],
+                     "name" : "Fly",
+                     "type" : "Fly"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "17a/17a_tuowei.plist",
+                           "frame" : 0,
+                           "life" : 0.3000000119209290,
+                           "pos" : {
+                              "x" : 70.0,
+                              "y" : 90.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : -1.0,
+                              "y" : 0.6999999880790710
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "17a/17a_tuowei.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "17a/17a_dimian.plist",
+                           "frame" : 0,
+                           "life" : 1.0,
+                           "pos" : {
+                              "x" : 120.0,
+                              "y" : 20.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.0,
+                              "y" : 0.6999999880790710
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "17a/17a_dimian.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "85b/85b_tuiweo5.plist",
+                           "frame" : 0,
+                           "life" : 0.3000000119209290,
+                           "pos" : {
+                              "x" : 30.0,
+                              "y" : 70.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : -1.200000047683716,
+                              "y" : 0.4000000059604645
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "85b/85b_tuiweo5.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "85b/85b_tuiweo4.plist",
+                           "frame" : 0,
+                           "life" : 0.3000000119209290,
+                           "pos" : {
+                              "x" : 30.0,
+                              "y" : 70.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.0,
+                              "y" : 0.6999999880790710
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "85b/85b_tuiweo4.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "gongji",
+                           "frame" : 3,
+                           "life" : 1.0,
+                           "schema" : "default",
+                           "startTime" : 0.1250,
+                           "type" : "Animation"
+                        }
+                     ],
+                     "name" : "gongji",
+                     "type" : "Animation"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "ResetPos",
+                           "fly" : {
+                              "bezierAngle" : 45.0,
+                              "bezierControl1" : 0.50,
+                              "bezierControl2" : 0.750,
+                              "easeTime" : 0.8000000119209290,
+                              "flyTime" : 0.1000000014901161,
+                              "type" : 1,
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "frame" : 28,
+                           "life" : 0.1000000014901161,
+                           "startTime" : 1.166666626930237,
+                           "type" : "ResetPos"
+                        }
+                     ],
+                     "name" : "ResetPos",
+                     "type" : "ResetPos"
+                  }
+               ],
+               "type" : "efx"
+            }
+         }
+      },
+      {
+         "name" : "gongji",
+         "schema" : {
+            "default" : {
+               "isLoop" : false,
+               "tracks" : [
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "die/huikanzhunbei.mp3",
+                           "frame" : 0,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.0,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "die/huikanzhunbei.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "die/huikanzhunbei.mp3",
+                           "frame" : 7,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.2916666567325592,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "die/huikanzhunbei.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "die/huikanzhunbei.mp3",
+                           "frame" : 10,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.4166666567325592,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "die/huikanzhunbei.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "skill/attack01.mp3",
+                           "frame" : 11,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.4583333432674408,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "skill/attack01.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "19b_daoguang",
+                           "frame" : 13,
+                           "life" : 0.2700000107288361,
+                           "pos" : {
+                              "x" : 80.0,
+                              "y" : 150.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 45.0,
+                           "scale" : {
+                              "x" : -1.50,
+                              "y" : 1.799999952316284
+                           },
+                           "startTime" : 0.5416666865348816,
+                           "type" : "Flash",
+                           "vt" : 0,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "19b_daoguang",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "ailun/baozha.plist",
+                           "frame" : 13,
+                           "life" : 0.6000000238418579,
+                           "pos" : {
+                              "x" : -120.0,
+                              "y" : 60.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 0.4000000059604645,
+                              "y" : 0.50
+                           },
+                           "startTime" : 0.5416666865348816,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "ailun/baozha.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "36a_alagongdie",
+                           "frame" : 13,
+                           "life" : 0.3300000131130219,
+                           "pos" : {
+                              "x" : -170.0,
+                              "y" : 30.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 20.0,
+                           "scale" : {
+                              "x" : -2.50,
+                              "y" : 2.299999952316284
+                           },
+                           "startTime" : 0.5416666865348816,
+                           "type" : "Flash",
+                           "vt" : 0,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "36a_alagongdie",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "36a_alagongdie",
+                           "frame" : 13,
+                           "life" : 0.3300000131130219,
+                           "pos" : {
+                              "x" : -170.0,
+                              "y" : 30.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 20.0,
+                           "scale" : {
+                              "x" : -2.50,
+                              "y" : 2.299999952316284
+                           },
+                           "startTime" : 0.5416666865348816,
+                           "type" : "Flash",
+                           "vt" : 0,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "36a_alagongdie",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "hit_02",
+                           "frame" : 13,
+                           "hitAction" : "shoushang",
+                           "life" : 0.50,
+                           "randomDelay" : 0.0,
+                           "startTime" : 0.5416666865348816,
+                           "type" : "Hit"
+                        }
+                     ],
+                     "name" : "hit_02",
+                     "type" : "Hit"
+                  }
+               ],
+               "type" : "efx"
+            },
+            "hit001" : {
+               "isLoop" : false,
+               "tracks" : [
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "ailun/guangxian.plist",
+                           "frame" : 0,
+                           "life" : 0.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 60.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 2.50,
+                              "y" : 2.50
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "ailun/guangxian.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "1pugong/jinse.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 60.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.600000023841858,
+                              "y" : 1.600000023841858
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "1pugong/jinse.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "1pugong/jinse2.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 60.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.200000047683716,
+                              "y" : 1.200000047683716
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "1pugong/jinse2.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "1pugong/jinse3.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 60.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 2.0,
+                              "y" : 2.0
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "1pugong/jinse3.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "skill/baozha.mp3",
+                           "frame" : 0,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.0,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "skill/baozha.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "HitTip",
+                           "frame" : 7,
+                           "life" : 1.0,
+                           "startTime" : 0.2916666567325592,
+                           "type" : "HitTip"
+                        }
+                     ],
+                     "name" : "HitTip",
+                     "type" : "HitTip"
+                  }
+               ],
+               "type" : "efx"
+            },
+            "hit_02" : {
+               "isLoop" : false,
+               "tracks" : [
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "skill/baozha.mp3",
+                           "frame" : 0,
+                           "life" : 1.0,
+                           "loop" : false,
+                           "startTime" : 0.0,
+                           "type" : "Sound"
+                        }
+                     ],
+                     "name" : "skill/baozha.mp3",
+                     "type" : "Sound"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "11b_dimian",
+                           "frame" : 0,
+                           "life" : 0.8999999761581421,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : -5.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 2.0,
+                              "y" : 2.0
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 0,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "11b_dimian",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "87b/87B_dikuosan2.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 0.6999999880790710,
+                              "y" : 0.6000000238418579
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "87b/87B_dikuosan2.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "76b/76b_kuohuan.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 10.0,
+                              "y" : 80.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 0.8000000119209290,
+                              "y" : 0.8000000119209290
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "76b/76b_kuohuan.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "76b/76b_yanwu.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 70.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.0,
+                              "y" : 1.0
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "76b/76b_yanwu.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "76b/76b_lizi.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 20.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.0,
+                              "y" : 1.0
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "76b/76b_lizi.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "76b/76b_baozha2.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 70.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.0,
+                              "y" : 1.0
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "76b/76b_baozha2.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground",
+                           "effectPath" : "76b/76b_kuosan.plist",
+                           "frame" : 0,
+                           "life" : 1.0,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 80.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.50,
+                              "y" : 1.50
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "76b/76b_kuosan.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "bindName" : "ground_back",
+                           "effectPath" : "27b/27b_shifa.plist",
+                           "frame" : 0,
+                           "life" : 1.50,
+                           "pos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "relPos" : {
+                              "x" : 0.0,
+                              "y" : 0.0
+                           },
+                           "reltoTarget" : false,
+                           "rot" : 0.0,
+                           "scale" : {
+                              "x" : 1.50,
+                              "y" : 1.50
+                           },
+                           "startTime" : 0.0,
+                           "type" : "Flash",
+                           "vt" : 1,
+                           "z" : 0
+                        }
+                     ],
+                     "name" : "27b/27b_shifa.plist",
+                     "type" : "Flash"
+                  },
+                  {
+                     "keys" : [
+                        {
+                           "effectPath" : "HitTip",
+                           "frame" : 7,
+                           "life" : 1.0,
+                           "startTime" : 0.2916666567325592,
+                           "type" : "HitTip"
+                        }
+                     ],
+                     "name" : "HitTip",
+                     "type" : "HitTip"
+                  }
+               ],
+               "type" : "efx"
+            }
+         }
+      }
+   ],
+   "refAction" : "jinzhan",
+   "scale" : {
+      "x" : 1.0,
+      "y" : 1.0
+   }
+}

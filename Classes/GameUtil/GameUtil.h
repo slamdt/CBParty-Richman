@@ -10,12 +10,14 @@
 #define __DoTaBattle__GameLayer__
 
 #include "cocos2d.h"
-
+#include "CCEditBox.h"
 using namespace cocos2d;
+using namespace cocos2d::extension;
 
 #define FONT_NAME "FZYHJW--GB1-0" 
 enum GameModel{
     GAME_BATTLE = 0,
+    HELP_SISTER
 };
 
 enum FightMode {

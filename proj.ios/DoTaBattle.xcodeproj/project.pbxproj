@@ -370,6 +370,8 @@
 		F0C363E41AB9A17C004EA173 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C363DD1AB9A17C004EA173 /* Icon@2x.png */; };
 		F0C363E51AB9A17C004EA173 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F0C363DE1AB9A17C004EA173 /* iTunesArtwork */; };
 		F0C363E81AB9A1BD004EA173 /* DoTaBattle.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0C363E71AB9A1BD004EA173 /* DoTaBattle.plist */; };
+		F0D721DE1E25D4EA00287A51 /* HelpSisterLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0D721DC1E25D4EA00287A51 /* HelpSisterLayer.cpp */; };
+		F0D721E21E25DCEC00287A51 /* InputBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D721E11E25DCEC00287A51 /* InputBg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1158,6 +1160,9 @@
 		F0C363DD1AB9A17C004EA173 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		F0C363DE1AB9A17C004EA173 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		F0C363E71AB9A1BD004EA173 /* DoTaBattle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DoTaBattle.plist; sourceTree = "<group>"; };
+		F0D721DC1E25D4EA00287A51 /* HelpSisterLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpSisterLayer.cpp; sourceTree = "<group>"; };
+		F0D721DD1E25D4EA00287A51 /* HelpSisterLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HelpSisterLayer.hpp; sourceTree = "<group>"; };
+		F0D721E11E25DCEC00287A51 /* InputBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InputBg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1405,6 +1410,7 @@
 		F09A59251AC016B90056245A /* GameLayers */ = {
 			isa = PBXGroup;
 			children = (
+				F0D721DB1E25D4EA00287A51 /* HelpSister */,
 				F05AA0EE1B5647F200E9C153 /* Battle */,
 				F05AA0F71B56597100E9C153 /* BaseLayer.cpp */,
 				F05AA0F81B56597100E9C153 /* BaseLayer.h */,
@@ -2766,6 +2772,7 @@
 		F0C362CC1AB9A132004EA173 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F0D721E01E25DCEC00287A51 /* Pic */,
 				F05AA0FD1B566BD100E9C153 /* Actor */,
 			);
 			name = Resources;
@@ -2792,6 +2799,23 @@
 				F0C363E71AB9A1BD004EA173 /* DoTaBattle.plist */,
 			);
 			path = plists;
+			sourceTree = "<group>";
+		};
+		F0D721DB1E25D4EA00287A51 /* HelpSister */ = {
+			isa = PBXGroup;
+			children = (
+				F0D721DC1E25D4EA00287A51 /* HelpSisterLayer.cpp */,
+				F0D721DD1E25D4EA00287A51 /* HelpSisterLayer.hpp */,
+			);
+			path = HelpSister;
+			sourceTree = "<group>";
+		};
+		F0D721E01E25DCEC00287A51 /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				F0D721E11E25DCEC00287A51 /* InputBg.png */,
+			);
+			path = Pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2892,6 +2916,7 @@
 				F0C363E21AB9A17C004EA173 /* Icon-Small@2x.png in Resources */,
 				F05AA1131B566BD100E9C153 /* renwu.png in Resources */,
 				F05AA10C1B566BD100E9C153 /* ailisi_1.xml in Resources */,
+				F0D721E21E25DCEC00287A51 /* InputBg.png in Resources */,
 				F0C363E51AB9A17C004EA173 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2930,6 +2955,7 @@
 				F0C363011AB9A132004EA173 /* CCAtlasNode.cpp in Sources */,
 				F0C3630B1AB9A132004EA173 /* CCDataVisitor.cpp in Sources */,
 				F0B725C91B578B5E00B1A9C6 /* cpSpatialIndex.c in Sources */,
+				F0D721DE1E25D4EA00287A51 /* HelpSisterLayer.cpp in Sources */,
 				F0B725BF1B578B5E00B1A9C6 /* cpBody.c in Sources */,
 				F09A59081AC0162D0056245A /* CCProcessBase.cpp in Sources */,
 				F0C363A11AB9A132004EA173 /* CCControlHuePicker.cpp in Sources */,

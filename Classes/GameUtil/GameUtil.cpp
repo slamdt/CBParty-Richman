@@ -8,6 +8,7 @@
 
 #include "GameUtil.h"
 #include "BattleLayer.h"
+#include "HelpSisterLayer.hpp"
 
 void GameUtil::RunScene(GameModel model) {
     CCDirector *director = CCDirector::sharedDirector();
@@ -16,6 +17,9 @@ void GameUtil::RunScene(GameModel model) {
     switch (model) {
         case GAME_BATTLE:
             pLayer = BattleLayer::create();
+            break;
+        case HELP_SISTER:
+            pLayer = HelpSisterLayer::create();
             break;
         default:
             pLayer = new BaseLayer();

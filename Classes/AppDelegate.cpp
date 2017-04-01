@@ -89,7 +89,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
     
-    GameUtil::RunScene(HELP_SISTER);
+    GameUtil::RunScene(RICH_MAN);
     return true;
 }
 

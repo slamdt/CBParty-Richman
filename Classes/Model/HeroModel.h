@@ -22,6 +22,7 @@ public:
     void AddArmatureInfo();
     void PlayAnimation(const char* aniName);
     float GetHeight();
+    float GetWidth();
     std::string GetResoucePrePath(const char* modelName);
 private:
     const char * _modelName;

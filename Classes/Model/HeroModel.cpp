@@ -41,7 +41,11 @@ HeroModel* HeroModel::Create(const char *modelName,bool isNeedFlip) {
 }
 
 float HeroModel::GetHeight() {
-    return m_pAnimator->getContentSize().height*m_pAnimator->getScaleY();
+    return m_pAnimator->getContentSize().height * m_pAnimator->getScaleY();
+}
+
+float HeroModel::GetWidth() {
+    return m_pAnimator->getContentSize().width * m_pAnimator->getScaleX();
 }
 
 void HeroModel::PlayAnimation(const char *aniName) {

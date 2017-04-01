@@ -12,5 +12,6 @@ bool BaseLayer::init() {
     if (!CCLayer::init()) {
         return false;
     }
+    winSize = CCDirector::sharedDirector()->getWinSize();
     return true;
 }

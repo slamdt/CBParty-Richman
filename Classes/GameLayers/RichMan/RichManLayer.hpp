@@ -15,6 +15,7 @@ public:
     CREATE_FUNC(RichManLayer)
     virtual bool init();
     void drawMap();
+    void backToModel();
 private:
 };
 

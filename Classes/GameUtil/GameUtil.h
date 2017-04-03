@@ -12,6 +12,7 @@
 #include "cocos2d.h"
 #include "CCEditBox.h"
 #include "BoFlash.h"
+#include "json.h"
 using namespace cocos2d;
 using namespace cocos2d::extension;
 
@@ -35,7 +36,8 @@ className* className::_shared = NULL;\
 enum GameModel{
     GAME_BATTLE = 0,
     HELP_SISTER,
-    RICH_MAN
+    RICH_MAN,
+    RICH_MAN_MODEL_CHOOSE
 };
 
 enum FightMode {
@@ -44,10 +46,6 @@ enum FightMode {
     FIGHT_CHAOFENG
 };
 
-enum RICHMANPOPTYPE {
-    GAME_START = 0,
-    GAME_FORWARD
-};
 class GameUtil {
 public:
     static void RunScene(GameModel model);

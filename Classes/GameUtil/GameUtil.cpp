@@ -10,6 +10,7 @@
 #include "BattleLayer.h"
 #include "HelpSisterLayer.hpp"
 #include "RichManLayer.hpp"
+#include "RichManModelChooseLayer.hpp"
 
 void GameUtil::RunScene(GameModel model) {
     CCDirector *director = CCDirector::sharedDirector();
@@ -17,17 +18,30 @@ void GameUtil::RunScene(GameModel model) {
     CCLayer *pLayer = NULL;
     switch (model) {
         case GAME_BATTLE:
+        {
             pLayer = BattleLayer::create();
+        }
             break;
         case HELP_SISTER:
+        {
             pLayer = HelpSisterLayer::create();
+        }
             break;
         case RICH_MAN:
+        {
             pLayer = RichManLayer::create();
+        }
+            break;
+        case RICH_MAN_MODEL_CHOOSE:
+        {
+            pLayer = RichManModelChooseLayer::create();
+        }
             break;
         default:
+        {
             pLayer = new BaseLayer();
             pLayer->autorelease();
+        }
             break;
     }
     if (pLayer) {

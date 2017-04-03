@@ -48,6 +48,7 @@
 		F005C36B1E8F992200EA808E /* huishou.xml in Resources */ = {isa = PBXBuildFile; fileRef = F005C3681E8F992200EA808E /* huishou.xml */; };
 		F005C36E1E8FA9E900EA808E /* ailisi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F005C36C1E8FA9E900EA808E /* ailisi_1.png */; };
 		F005C36F1E8FA9E900EA808E /* ailun_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F005C36D1E8FA9E900EA808E /* ailun_1.png */; };
+		F01057141E92A52200B3971A /* RichManModelChooseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F01057121E92A52200B3971A /* RichManModelChooseLayer.cpp */; };
 		F05AA0EA1B5642CA00E9C153 /* HeroModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F05AA0E81B5642CA00E9C153 /* HeroModel.cpp */; };
 		F05AA0F11B56480800E9C153 /* BattleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F05AA0EF1B56480800E9C153 /* BattleLayer.cpp */; };
 		F05AA0F61B564F3B00E9C153 /* GameUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F05AA0F41B564F3B00E9C153 /* GameUtil.cpp */; };
@@ -64,6 +65,7 @@
 		F05AA1121B566BD100E9C153 /* efx.json in Resources */ = {isa = PBXBuildFile; fileRef = F05AA1081B566BD100E9C153 /* efx.json */; };
 		F05AA1131B566BD100E9C153 /* renwu.png in Resources */ = {isa = PBXBuildFile; fileRef = F05AA1091B566BD100E9C153 /* renwu.png */; };
 		F08B8E731E7D30FD00385FFA /* RichManLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F08B8E711E7D30FD00385FFA /* RichManLayer.cpp */; };
+		F099ECCE1E91093900BEDEC1 /* popBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F099ECCD1E91093900BEDEC1 /* popBg.png */; };
 		F09A59071AC0162D0056245A /* CCArmatureAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09A58BE1AC0162C0056245A /* CCArmatureAnimation.cpp */; };
 		F09A59081AC0162D0056245A /* CCProcessBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09A58C01AC0162C0056245A /* CCProcessBase.cpp */; };
 		F09A59091AC0162D0056245A /* CCTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09A58C21AC0162C0056245A /* CCTween.cpp */; };
@@ -493,6 +495,8 @@
 		F005C3681E8F992200EA808E /* huishou.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = huishou.xml; sourceTree = "<group>"; };
 		F005C36C1E8FA9E900EA808E /* ailisi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ailisi_1.png; sourceTree = "<group>"; };
 		F005C36D1E8FA9E900EA808E /* ailun_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ailun_1.png; sourceTree = "<group>"; };
+		F01057121E92A52200B3971A /* RichManModelChooseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RichManModelChooseLayer.cpp; sourceTree = "<group>"; };
+		F01057131E92A52200B3971A /* RichManModelChooseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RichManModelChooseLayer.hpp; sourceTree = "<group>"; };
 		F05AA0E81B5642CA00E9C153 /* HeroModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeroModel.cpp; sourceTree = "<group>"; };
 		F05AA0E91B5642CA00E9C153 /* HeroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroModel.h; sourceTree = "<group>"; };
 		F05AA0EF1B56480800E9C153 /* BattleLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleLayer.cpp; sourceTree = "<group>"; };
@@ -529,6 +533,7 @@
 		F06A96781B58F54400BC4383 /* CCStdC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStdC.h; sourceTree = "<group>"; };
 		F08B8E711E7D30FD00385FFA /* RichManLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RichManLayer.cpp; sourceTree = "<group>"; };
 		F08B8E721E7D30FD00385FFA /* RichManLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RichManLayer.hpp; sourceTree = "<group>"; };
+		F099ECCD1E91093900BEDEC1 /* popBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popBg.png; sourceTree = "<group>"; };
 		F09A58BE1AC0162C0056245A /* CCArmatureAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCArmatureAnimation.cpp; sourceTree = "<group>"; };
 		F09A58BF1AC0162C0056245A /* CCArmatureAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCArmatureAnimation.h; sourceTree = "<group>"; };
 		F09A58C01AC0162C0056245A /* CCProcessBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCProcessBase.cpp; sourceTree = "<group>"; };
@@ -1520,6 +1525,8 @@
 				F0F211DA1E8F546800C19C58 /* RichaManGameController.hpp */,
 				F005C2E31E8F78C300EA808E /* RichManPopLayer.cpp */,
 				F005C2E41E8F78C300EA808E /* RichManPopLayer.hpp */,
+				F01057121E92A52200B3971A /* RichManModelChooseLayer.cpp */,
+				F01057131E92A52200B3971A /* RichManModelChooseLayer.hpp */,
 			);
 			path = RichMan;
 			sourceTree = "<group>";
@@ -3021,6 +3028,7 @@
 		F0D721E01E25DCEC00287A51 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				F099ECCD1E91093900BEDEC1 /* popBg.png */,
 				F005C36C1E8FA9E900EA808E /* ailisi_1.png */,
 				F005C36D1E8FA9E900EA808E /* ailun_1.png */,
 				F0F211DC1E8F685C00C19C58 /* block_empty.png */,
@@ -3117,6 +3125,7 @@
 				F0C363E11AB9A17C004EA173 /* Icon-Small.png in Resources */,
 				F09A59171AC0162D0056245A /* json_internalmap.inl in Resources */,
 				F0C363DF1AB9A17C004EA173 /* Icon-72.png in Resources */,
+				F099ECCE1E91093900BEDEC1 /* popBg.png in Resources */,
 				F09A59161AC0162D0056245A /* json_internalarray.inl in Resources */,
 				F005C3621E8F96A600EA808E /* json_valueiterator.inl in Resources */,
 				F0B725AD1B578B5E00B1A9C6 /* README.txt in Resources */,
@@ -3413,6 +3422,7 @@
 				F0B725321B578A9400B1A9C6 /* b2ChainShape.cpp in Sources */,
 				F0B725351B578A9400B1A9C6 /* b2PolygonShape.cpp in Sources */,
 				F0C3636B1AB9A132004EA173 /* ZipUtils.cpp in Sources */,
+				F01057141E92A52200B3971A /* RichManModelChooseLayer.cpp in Sources */,
 				F0B7254C1B578A9400B1A9C6 /* b2FrictionJoint.cpp in Sources */,
 				F0B725CB1B578B5E00B1A9C6 /* cpVect.c in Sources */,
 				F0C363A91AB9A132004EA173 /* CCScale9Sprite.cpp in Sources */,

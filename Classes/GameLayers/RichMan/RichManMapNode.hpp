@@ -24,8 +24,16 @@ public:
     virtual bool init();
     void initWithDatas(int step, int nodeType);
     void triggerEvent();
+    void setHolderInfo(int playerId, Json::Value question);
+    Json::Value& getHolderInfo();
+    void reduceHolderQuestions(int reduceSize);
+    void clearHolderInfo();
+    void freeHoldedBlock();
 private:
     int curStep;
+    int nodeType;
+    Json::Value holderInfo;
+    CCSprite* nodePic;
 };
 
 #endif /* RichManMapNode_hpp */

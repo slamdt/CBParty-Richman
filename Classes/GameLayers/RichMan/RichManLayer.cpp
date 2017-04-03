@@ -17,24 +17,32 @@ bool RichManLayer::init() {
         return false;
     }
     CCLabelTTF *tips = CCLabelTTF::create("I'm RichMan", FONT_NAME, 20);
-    tips->setPosition(ccp(winSize.width / 2 , winSize.height * 0.5));
+    tips->setColor(ccc3(255, 215, 0));
+    tips->setPosition(ccp(winSize.width / 2 , winSize.height * 0.6));
     this->addChild(tips);
     
     drawMap();
     
     RichManPlayer* player = RichManPlayer::create();
-    player->initWithDatas("ailisi_1", true);
+    player->initWithDatas("ailisi_1", true, false, PLAYER_1);
     this->addChild(player);
-    RichManGameController_->setPlayer(player, false);
     
     RichManPlayer* NPC = RichManPlayer::create();
-    NPC->initWithDatas("ailun_1", false, true);
+    NPC->initWithDatas("ailun_1", false, RichManGameController_->getIsPlayWithNPC(), PLAYER_2);
     this->addChild(NPC);
-    RichManGameController_->setPlayer(NPC, true);
     
-    RichManPopLayer* startLaye = RichManPopLayer::create();
-    startLaye->makeContentWithType(GAME_START);
-    this->addChild(startLaye);
+    CCMenuItemLabel* backBtn = CCMenuItemLabel::create(CCLabelTTF::create("返回模式选择界面", FONT_NAME, 20), this, menu_selector(RichManLayer::backToModel));
+    backBtn->setColor(ccc3(255, 97, 0));
+    backBtn->setPosition(ccp(winSize.width * 0.5, winSize.height * 0.5));
+    
+    CCMenu* menu = CCMenu::create(backBtn, NULL);
+    menu->setTouchPriority(0);
+    menu->setPosition(ccp(0, 0));
+    this->addChild(menu);
+    
+    RichManPopLayer* startLayer = RichManPopLayer::create();
+    startLayer->makeContentWithType(GAME_START);
+    this->addChild(startLayer);
     return true;
 }
 
@@ -69,4 +77,9 @@ void RichManLayer::drawMap() {
         this->addChild(node);
         RichManGameController_->addMapNodes(node);
     }
+}
+
+void RichManLayer::backToModel() {
+    RichManGameController_->resetData();
+    GameUtil::RunScene(RICH_MAN_MODEL_CHOOSE);
 }

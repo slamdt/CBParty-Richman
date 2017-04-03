@@ -16,10 +16,13 @@ bool HelpSisterLayer::init() {
     winSize = CCDirector::sharedDirector()->getWinSize();
     CCLabelTTF *tips = CCLabelTTF::create("献给谭帅的大表妹", FONT_NAME, 20);
     tips->setPosition(ccp(winSize.width / 2, winSize.height * 0.8));
+    tips->runAction(CCMoveTo::create(2, ccp(winSize.width, winSize.height * 0.8)));
+    tips->runAction(CCFadeOut::create(2));
+    
     this->addChild(tips);
     layerNode = CCNode::create();
     this->addChild(layerNode);
-    makeLayerByType(LOGIN_LAYER);
+//    makeLayerByType(LOGIN_LAYER);
     return true;
 }
 
